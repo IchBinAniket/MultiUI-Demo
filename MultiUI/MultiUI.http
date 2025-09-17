@@ -1,0 +1,6 @@
+@MultiUI_HostAddress = http://localhost:5136
+
+GET {{MultiUI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

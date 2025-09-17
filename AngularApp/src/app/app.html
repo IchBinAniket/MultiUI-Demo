@@ -1,0 +1,47 @@
+<div style="display: flex; gap: 30px; padding: 40px; justify-content: center; align-items: flex-start;">
+  <h1 style="margin-bottom: 15px;">Angular App</h1>
+
+  <div style="
+      border: 1px solid #ccc;
+      padding: 30px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      background-color: #f9f9f9;
+  ">
+    <h2 style="margin-bottom: 15px;">Global Counter</h2>
+    <p style="font-size: 24px; font-weight: bold; margin-bottom: 20px;">{{ globalCounter }}</p>
+    <button style="
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    " (click)="incrementGlobal()">Increment Global</button>
+  </div>
+
+  <div style="
+      border: 1px solid #ccc;
+      padding: 30px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      background-color: #f9f9f9;
+  ">
+    <h2 style="margin-bottom: 15px;">User Counter</h2>
+    <p style="font-size: 24px; font-weight: bold; margin-bottom: 20px;">{{ userCounter }}</p>
+    <button style="
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    " (click)="incrementUser()">Increment User</button>
+  </div>
+</div>

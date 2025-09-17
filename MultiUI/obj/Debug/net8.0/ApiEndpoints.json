@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "MultiUI.Controllers.CounterController",
+    "Method": "GetGlobal",
+    "RelativePath": "api/Counter/global",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiUI.Controllers.CounterController",
+    "Method": "IncrementGlobal",
+    "RelativePath": "api/Counter/global/increment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiUI.Controllers.CounterController",
+    "Method": "GetUser",
+    "RelativePath": "api/Counter/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiUI.Controllers.CounterController",
+    "Method": "IncrementUser",
+    "RelativePath": "api/Counter/user/{userId}/increment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
